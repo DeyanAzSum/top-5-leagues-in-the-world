@@ -34,7 +34,7 @@ th{
     border-style: none;
     padding: 10px;
 }
-.name{
+.nameFC{
     text-align: left;
 }
 h2{
@@ -42,8 +42,9 @@ h2{
     font-size: 70px;
 }
 .champ{
-    border-style: solid;
     border-left-color: rgb(7, 131, 11);
-    border-left-width: 5px;
+    border-left-width: 5px;    
+}
+.tableBorder{
     
 }
