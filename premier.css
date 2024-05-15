@@ -23,26 +23,67 @@ h3{
 
 table{
 
-    border-style: unset;
-    border-left-style: doubled;
-    border-radius: 1%;
-    border-color: black;
+   
     text-align: center;
-    padding-right: 0%;
-    padding-top: 1%;
-    padding-bottom: 0%;
+    border-radius: 1%;
+    padding: 10px;
     padding-left: 0%;
-    font-size: 35px;
+    margin: 0px;
+    font-size: 25px;
     position: relative;
-    left: 350px;
+    left: 410px;
     background-color:  rgb(255, 255, 255);;
     color: rgb(0, 0, 0);
     text-decoration: solid;
 }
 
+#champs{
+    border-style: none;
+    border-color: black;
+    border-width: 5px;
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-left-color: rgb(39, 121, 221);
+}
+
+#conference{
+    border-style: none;
+    border-color: black;
+    border-width: 5px;
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-left-color: rgb(0, 164, 0);
+}
+
 
 
 #club{
+    border-style: none;
+    border-color: rgb(255, 255, 255);
+    border-width: 5px;
+    border-left-width: 5px;
+    border-left-style: solid;
+}
+
+#europa{
+    border-style: none;
+    border-color: black;
+    border-width: 5px;
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-left-color: rgb(255, 128, 0);
+}
+
+#relegation{
+    border-style: none;
+    border-color: black;
+    border-width: 5px;
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-left-color: rgb(234, 0, 0);
+}
+
+#name{
     text-align: left;
 }
 
@@ -52,5 +93,10 @@ table{
 
 #Stand{
     color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+#news{
+    color: black;
     text-align: center;
 }

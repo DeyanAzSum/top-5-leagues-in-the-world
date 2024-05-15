@@ -26,23 +26,79 @@ table{
     border-radius: 1%;
     border-color: rgb(0, 0, 0);
     text-align: center;
-    padding-right: 0%;
-    padding-top: 1%;
-    padding-bottom: 0%;
+    padding: 10px;
     padding-left: 0%;
-    font-size: 35px;
+    margin: 0px;
+    font-size: 25px;
     position: relative;
-    left: 370px;
+    left: 440px;
     background-color:  rgb(255, 255, 255);;
     color: rgb(0, 0, 0);
     text-decoration: solid;
 }
 
+#champs{
+    border-style: none;
+    border-color: black;
+    border-width: 5px;
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-left-color: rgb(39, 121, 221);
+}
+
+#europa{
+    border-style: none;
+    border-color: black;
+    border-width: 5px;
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-left-color: rgb(255, 128, 0);
+}
+
+#conference{
+    border-style: none;
+    border-color: black;
+    border-width: 5px;
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-left-color: rgb(0, 164, 0);
+}
+
+#playofs{
+    border-style: none;
+    border-color: black;
+    border-width: 5px;
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-left-color: rgb(199, 210, 0);
+}
+
+#relegation{
+    border-style: none;
+    border-color: black;
+    border-width: 5px;
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-left-color: rgb(234, 0, 0);
+}
+
+
 
 
 #club{
+    border-style: none;
+    border-color: rgb(255, 255, 255);
+    border-width: 5px;
+    border-left-width: 5px;
+    border-left-style: solid;
+}
+
+#name{
     text-align: left;
 }
+    
+
+
 
 #image{
     background-color: rgb(255, 249, 249);
