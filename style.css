@@ -17,3 +17,6 @@ body{
 p{
     font-size: 100px;
 }
+.first{
+    border-style: solid;
+}
