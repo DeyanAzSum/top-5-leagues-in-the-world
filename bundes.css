@@ -16,6 +16,12 @@ nav{
 body{
     background-color: #d10214;
 }
+.slide{
+    display: none;
+    position: relative;
+    left: 450px;
+    margin-bottom: 100px;
+}
 table{
     border-style: inset;
     padding: 10px;
@@ -38,6 +44,9 @@ th{
     text-align: left;
     position: relative;
     bottom: 0px;
+}
+.name:hover{
+    opacity: 0.5;
 }
 h2{
     color: #ffffff;
@@ -62,4 +71,29 @@ h2{
 }
 .releg{
     border-left-color: rgb(255, 0, 0);
+}
+.img{
+    opacity: 0.5;
+}
+.img:hover{
+    opacity: 1.0;
+}
+.cups{
+    position: absolute;
+    color:  #ffffff;
+    z-index: 100;
+    font-size: 20px;
+}
+.cups2{
+    display: none;
+}
+a:link{
+    color:#cccccc;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited{
+    color:#cccccc;
+    background-color: transparent;
+    text-decoration: none;
 }
