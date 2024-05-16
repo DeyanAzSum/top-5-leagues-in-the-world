@@ -19,7 +19,7 @@ h3{
     font-size: 300px;
 }
 
-table{
+#t2{
 
     border-style: unset;
     border-left-style: doubled;
@@ -31,7 +31,7 @@ table{
     margin: 0px;
     font-size: 25px;
     position: relative;
-    left: 440px;
+    left: 420px;
     background-color:  rgb(255, 255, 255);;
     color: rgb(0, 0, 0);
     text-decoration: solid;
@@ -107,4 +107,65 @@ table{
 #Stand{
     color: rgb(180, 180, 180);
     text-align: center;
+}
+
+td{
+    border-style: none;
+    padding: 8px;
+    margin: 5px;
+}
+
+
+#Matches{
+   text-align: center;
+   color: rgb(180, 180, 180);
+}
+
+#t1{
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    left: 450px;
+    background-color:  rgb(255, 255, 255);;
+    color: rgb(0, 0, 0);
+    text-decoration: solid;
+    font-size: 25px;
+    width: 550px;
+}
+
+#m34{
+    text-align: center;
+    background-color: #dae025;
+    text-size-adjust: 20px;
+}
+
+#matches34{
+    text-align: center;
+    
+}
+
+.parent{
+    margin: 5px;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.child1{
+    display: inline-block;
+    padding: 10px 10px;
+    vertical-align: center;
+}
+
+.child2{
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px 10px;
+    vertical-align: center;
+    
+}
+
+.child3{
+    display: inline-block;
+    padding: 10px 10px;
+    vertical-align: center;
 }

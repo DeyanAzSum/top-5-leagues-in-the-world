@@ -1,6 +1,6 @@
 nav{
     font-size: 100px;
-    background-color: #32cdcf;
+    background-color: aqua;
     margin-top:-30px;
     margin-inline:-8px;
     border-style: none;
@@ -21,17 +21,16 @@ h3{
     font-size: 300px;
 }
 
-table{
+#t2{
 
    
     text-align: center;
     border-radius: 1%;
     padding: 10px;
     padding-left: 0%;
-    margin: 0px;
     font-size: 25px;
     position: relative;
-    left: 410px;
+    left: 400px;
     background-color:  rgb(255, 255, 255);;
     color: rgb(0, 0, 0);
     text-decoration: solid;
@@ -99,4 +98,89 @@ table{
 #news{
     color: black;
     text-align: center;
+}
+
+td{
+    border-style: none;
+    padding: 8px;
+    margin: 5px;
+}
+
+#Matches{
+   text-align: center;
+}
+
+#t1{
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    left: 450px;
+    background-color:  rgb(255, 255, 255);;
+    color: rgb(0, 0, 0);
+    text-decoration: solid;
+    font-size: 25px;
+    width: 550px;
+}
+
+#m38{
+    text-align: center;
+    background-color: aqua;
+    text-size-adjust: 20px;
+}
+
+#matches38{
+    text-align: center;
+    
+}
+
+.parent{
+    margin: 5px;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.child1{
+    display: inline-block;
+    padding: 10px 10px;
+    vertical-align: center;
+}
+
+.child2{
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px 10px;
+    vertical-align: center;
+
+}
+
+.child3{
+    display: inline-block;
+    padding: 10px 10px;
+    vertical-align: center;
+}
+
+#stats{
+    text-align: center
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    justify-content: space-between;
+}
+
+.flex-container > div{
+    background-color: white;
+    margin: 55px;
+    padding: 10px;
+    font-size: 20px;
+    height: 2200px;
+    width: 400px;
+}
+
+#im{
+    width: 250px;
+    position: center;
+
 }
