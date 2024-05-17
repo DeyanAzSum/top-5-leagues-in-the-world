@@ -16,11 +16,54 @@ nav{
 body{
     background-color: #d10214;
 }
+.slidecontainer{
+    max-width: 80%;
+    margin: auto;
+}
 .slide{
     display: none;
     position: relative;
-    left: 450px;
-    margin-bottom: 100px;
+    margin: 50px;
+}
+.pic{
+    opacity: 0.8;
+}
+.news{
+    position: absolute;
+    bottom: 729px;
+    right: 300px;
+    color: #ff0000;
+    background-color: #000000;
+    opacity: 0.7;
+    font-size: 30px;
+    padding: 20px;
+    border-bottom-right-radius: 10%;
+}
+.news2{
+    position: absolute;
+    bottom: 4px;
+    right: 300px;
+    color: #ff0000;
+    background-color: #000000;
+    opacity: 0.7;
+    font-size: 30px;
+    padding: 20px;
+    border-top-right-radius: 10%;
+}
+.news3{
+    position: absolute;
+    bottom: 4px;
+    color: #ff0000;
+    background-color: #000000;
+    opacity: 0.7;
+    font-size: 30px;
+    padding: 20px;
+}
+.slideh{
+    font-size: 50px;
+}
+.text{
+    opacity: 1.0;
 }
 table{
     border-style: inset;
@@ -28,9 +71,7 @@ table{
     font-size: 35px;
     background-color: #2c2c2c;
     color: #cccccc;
-    text-align: center;
-    position: relative;
-    left: 270px;
+    margin: auto;
 }
 td{
     border-style: none;
