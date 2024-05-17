@@ -55,3 +55,17 @@ body{
 .laliga{
     background-color: #ff4b44;
 }
+.bundes{
+    background-color: red;
+}
+.bundesLogo{
+    display:inline-block;
+    background-color: white;
+}
+.table3{
+    border-style: 1px solid rgb(0,0,0);
+    background-color: white;
+    border-radius: 2%;
+    margin: 30px;
+    margin-left: 30px;
+}
