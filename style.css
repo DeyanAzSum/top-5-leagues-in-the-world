@@ -14,9 +14,44 @@ nav{
 body{
     background-color: #0052ce;
 }
-p{
-    font-size: 100px;
+.table1{
+    border-style: 1px solid rgb(0,0,0);
+    background-color: white;
+    border-radius: 2%;
+    margin: 30px;
+    margin-bottom: 0px;
 }
-.first{
-    border-style: solid;
+.premierMatch{
+    font-size: larger;
+    color: aqua;
+}
+.result{
+    display: inline-block;
+    border: 2px groove rgb(0,0,0);
+    border-radius: 10%; 
+}
+.time{
+    display: inline-block;
+    font-size: small;
+    color: #4a4a4a;
+}
+.goals{
+    text-align: start;
+}
+.table2{
+    border-style: 1px solid rgb(0,0,0);
+    background-color: white;
+    border-radius: 2%;
+    margin: 30px;
+    margin-left: 50px;
+}
+.premier{
+    background-color: aqua;
+}
+.laligaLogo{
+    display: inline-block;
+    background-color: white;
+}
+.laliga{
+    background-color: #ff4b44;
 }
