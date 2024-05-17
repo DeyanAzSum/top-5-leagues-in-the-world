@@ -5,6 +5,7 @@
         <link href="bundes.css" rel="stylesheet">
     </head>
     <body>
+        
         <h1>
             <nav> 
                 <img src="bundes.png" width="80" height="80" /> Bundesliga
@@ -15,13 +16,21 @@
                 <a class="right" href="index.html"> <img src="logo.webp" width="80" height="80" /> </a> 
             </nav>
         </h1>
-        <div>
-            <img class="slide" src="slide1.jpg" width=50%>
-            <img class="slide" src="slide2.jpg" width=50%>
-            <img class="slide" src="slide3.jpg" width=50%>
+        <div class="slidecontainer">
+            <div class="slide">
+                <img class="pic" src="slide1.jpg" width=100%>
+                <div class="news"> <span class="text"> <b class="slideh"> Bayer Leverkusen's unbelievable run </b> <br> The team under Xabi Alonso achieves incredible run of 49 unbeaten games, breaking Benfica's record of 48 unbeaten games. With this amazing team, they also wins their first Bundesliga title and breaks Bayern's run of 11 titles in a row! </span> </div>
+            </div>
+            <div class="slide">
+                <img class="pic" src="slide2.jpg" width=100%>
+                <div class="news2"> <span class="text"> <b class="slideh"> Borussia Dortmund finalists in UCL </b> <br> Thirty-two teams started the tournament, and now just two remain. Joining 14-time champions Real Madrid in the UEFA Champions League final are Germany's finest, Borussia Dortmund, who have shown their many qualities over the past nine months. </span> </div>
+            </div>
+            <div class="slide">
+                <img class="pic" src="slide3.jpg" width=100%>
+                <div class="news3"> <span class="text"> <b class="slideh"> Bayern München in a big coach crisis </b> <br> The German record titleholders have already been eliminated from the German Cup back in November, from the the rest of their matches in Bundelsiga, they can't also reach Bayer Leverkusen in the title race and last week they were knocked out of UCL after a "nightmare" game against Real madrid</span> </div>
+            </div>
         </div>
         <h2>Standings</h2>
-        
         <table>
             <tr>
                 <th>Position</th>
@@ -242,8 +251,7 @@
                 x.style.display = "block";
               }
             }
-            </script>
-            <script>
+
             var index = 0;
             bundes();
             function bundes() {
@@ -257,8 +265,8 @@
                     index=1;
                 }
                 x[index-1].style.display="block";
-                setTimeout(bundes,2000);
+                setTimeout(bundes,3000);
             }
-            </script>
+        </script>
     </body>
 </html>
