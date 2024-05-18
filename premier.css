@@ -84,6 +84,8 @@ h3{
 
 #name{
     text-align: left;
+    position: relative;
+    left: 0px;
 }
 
 #image{
@@ -136,51 +138,78 @@ td{
 .parent{
     margin: 5px;
     padding: 10px 10px;
-    text-align: center;
+    text-align: middle;
 }
 
 .child1{
     display: inline-block;
     padding: 10px 10px;
-    vertical-align: center;
+    vertical-align: right;
 }
 
 .child2{
     display: inline-block;
     border: 1px solid rgb(0, 0, 0);
     padding: 10px 10px;
-    vertical-align: center;
+    vertical-align: middle;
 
 }
 
 .child3{
     display: inline-block;
     padding: 10px 10px;
-    vertical-align: center;
+    vertical-align: left;
 }
 
 #stats{
     text-align: center
 }
 
+
+
+#text.stats{
+    text-align: center;
+}
+
 .flex-container{
     display: flex;
     flex-direction: row;
-    background-color: aqua;
+    background-color: #7573f7;
     justify-content: space-between;
+    margin: 50px;
 }
 
-.flex-container > div{
+.flex-element{
+    display: inline-block;
+    padding: 2px 2px;
+    justify-content: flex-start;
+    vertical-align: right;
     background-color: white;
-    margin: 55px;
-    padding: 10px;
-    font-size: 20px;
-    height: 2200px;
-    width: 400px;
+    width: 1000pxs;
+
+}
+.flex-element2{
+    display: inline-block;
+    padding: 2px 2px;
+    vertical-align: right;
+    background-color: white;
 }
 
+.flex-element3{
+    display: inline-block;
+    padding: 2px 2px;
+    vertical-align: right;
+    background-color: white;
+    justify-content: flex-end;
+
+}
+
+#player.name{
+     text-align: left;
+}
 #im{
     width: 250px;
     position: center;
 
 }
+

@@ -15,6 +15,11 @@ body{
     background-color: #12233f;
 }
 
+#news{
+    text-align: center;
+    color: rgb(180, 180, 180);
+}
+
 h3{
     font-size: 300px;
 }
@@ -31,7 +36,7 @@ h3{
     margin: 0px;
     font-size: 25px;
     position: relative;
-    left: 420px;
+    left: 405px;
     background-color:  rgb(255, 255, 255);;
     color: rgb(0, 0, 0);
     text-decoration: solid;
@@ -169,3 +174,13 @@ td{
     padding: 10px 10px;
     vertical-align: center;
 }
+
+
+#transfers{
+    text-align: center;
+    color: rgb(180, 180, 180);
+}
+
+
+
+ 
