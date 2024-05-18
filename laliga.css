@@ -71,3 +71,23 @@ h2{
     text-align: start;
     font-size: smaller;
 }
+.champions{
+    border-style: solid;
+    border-color: #2c2c2c;
+    border-left-color: darkblue;
+}
+.europ{
+    border-style: solid;
+    border-color: #2c2c2c;
+    border-left-color: darkred;
+}
+.conference{
+    border-style: solid;
+    border-color: #2c2c2c;
+    border-left-color: #ce9418;   
+}
+.releg{
+    border-style: solid;
+    border-color: #2c2c2c;
+    border-left-color: #d9110a;
+}
