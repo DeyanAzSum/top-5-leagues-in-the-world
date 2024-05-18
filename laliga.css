@@ -50,9 +50,24 @@ h2{
     padding: 20px;
     font-size: 25px;
     background-color: #3c3c3c;
-    color: #cccccc;
-    text-align: center;
+    color: #dddddd;
+    text-align: start;
     position: relative;
     bottom: 437.5px;
     left: 800px;
+}
+.result{
+    display: inline-block;
+    border: 2px groove rgb(0,0,0);
+    border-radius: 10%;
+    font-size: smaller; 
+}
+.time{
+    display: inline-block;
+    font-size: small;
+    color: #bbbbbb;
+}
+.goals{
+    text-align: start;
+    font-size: smaller;
 }
