@@ -15,6 +15,28 @@
                 <a class="right" href="index.html"><img src="logo.webp" width="80" height="80" /></a> 
             </nav>
         </h1>
+        <div class="slidecontainer">
+            <div class="slide">
+                <div class="number"> <b>1/4</b> </div>
+                <img class="pic" src="serie1.jpg" width=100%>
+                <div class="news"> <span class="text"> <b class="slideh"> Fiorentina 2:2 Napoli </div>
+            </div>
+            <div class="slide">
+                <div class="number"> <b>2/4</b> </div>
+                <img class="pic" src="serie2.jpg" width=100%>
+                <div class="news2"> <span class="text"> <b class="slideh"> Inter dominating Serie A for the 20th time </div>
+            </div>
+            <div class="slide">
+                <div class="number"> <b>3/4</b> </div>
+                <img class="pic" src="serie3.jpg" width=100%>
+                <div class="news3"> <span class="text"> <b class="slideh"> Bologna in the top 3 </div>
+            </div>
+            <div class="slide">
+                <div class="number"> <b>4/4</b> </div>
+                <img class="pic" src="serie4.jpg" width=100%>
+                <div class="news4"> <span class="text"> <b class="slideh"> Juventus winning Coppa Italia after 1:0 vs Atalanta </div>
+            </div>
+        </div>
         <h2>Standings</h2>
         <table>
             <tr>
@@ -249,5 +271,22 @@
                 <td> 16 </td>
             </tr>
         </table>
+        <script>
+            var index = 0;
+            seriea();
+            function seriea() {
+                var i;
+                var x = document.getElementsByClassName("slide");
+                for(i = 0; i < x.length; i++){
+                    x[i].style.display ="none";
+                }
+                index++;
+                if(index>x.length){
+                    index=1;
+                }
+                x[index-1].style.display="block";
+                setTimeout(seriea,3000);
+            }
+        </script>
     </body>
 </html>

@@ -19,7 +19,7 @@
         <div class="slidecontainer">
             <div class="slide">
                 <img class="pic" src="slide1.jpg" width=100%>
-                <div class="news"> <span class="text"> <b class="slideh"> Bayer Leverkusen's unbelievable run </b> <br> The team under Xabi Alonso achieves incredible run of 49 unbeaten games, breaking Benfica's record of 48 unbeaten games. With this amazing team, they also wins their first Bundesliga title and breaks Bayern's run of 11 titles in a row! </span> </div>
+                <div class="news"> <span class="text"> <b class="slideh"> Bayer Leverkusen's unbelievable run </b> <br> The team under Xabi Alonso achieves incredible run of 50 unbeaten games, breaking Benfica's record of 48 unbeaten games. With this amazing team, they also wins their first Bundesliga title and breaks Bayern's run of 11 titles in a row! </span> </div>
             </div>
             <div class="slide">
                 <img class="pic" src="slide2.jpg" width=100%>
@@ -29,6 +29,11 @@
                 <img class="pic" src="slide3.jpg" width=100%>
                 <div class="news3"> <span class="text"> <b class="slideh"> Bayern München in a big coach crisis </b> <br> The German record titleholders have already been eliminated from the German Cup back in November, from the the rest of their matches in Bundelsiga, they can't also reach Bayer Leverkusen in the title race and last week they were knocked out of UCL after a "nightmare" game against Real madrid</span> </div>
             </div>
+        </div>
+        <div id="dots">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
         </div>
         <h2>Standings</h2>
         <table>
@@ -252,20 +257,28 @@
               }
             }
 
-            var index = 0;
-            bundes();
-            function bundes() {
-                var i;
-                var x = document.getElementsByClassName("slide");
-                for(i = 0; i < x.length; i++){
-                    x[i].style.display ="none";
-                }
-                index++;
-                if(index>x.length){
-                    index=1;
-                }
-                x[index-1].style.display="block";
-                setTimeout(bundes,3000);
+            
+            var index = 1;
+            showSlides(index);
+
+            function currentSlide(n) {
+            showSlides(index = n);
+            }
+
+            function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("slide");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {index = 1}    
+            if (n < 1) {index = slides.length}
+            for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+             }
+            for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[index-1].style.display = "block";
+            dots[index-1].className += " active";
             }
         </script>
     </body>
