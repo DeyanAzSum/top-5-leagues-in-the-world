@@ -43,7 +43,9 @@ body{
     background-color: white;
     border-radius: 2%;
     margin: 30px;
-    margin-left: 50px;
+    position: relative;
+    margin-left: 350px;
+    bottom: 210px;
 }
 .premier{
     background-color: aqua;
@@ -67,5 +69,34 @@ body{
     background-color: white;
     border-radius: 2%;
     margin: 30px;
+    position: relative;
     margin-left: 30px;
+    bottom: 100px;
+}
+.table4{
+border-style: 1px solid rgb(0,0,0);
+background-color: white;
+border-radius: 2%;
+margin: 30px;
+position: relative;
+margin-left: 360px;
+bottom: 430px;
+}
+.seriea{
+    background-color: rgb(45, 143, 255);
+}
+.ligue1{
+    background-color: #dae025;
+}
+.table5{
+    border-style: 1px solid rgb(0,0,0);
+    background-color: white;
+    border-radius: 2%;
+    margin: 30px;
+    position: relative;
+    margin-left: 380px;
+    bottom: 435px; 
+}
+.title{
+    color: #dddddd;
 }
