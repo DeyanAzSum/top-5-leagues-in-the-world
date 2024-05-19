@@ -19,8 +19,50 @@
         <h1 id="news">
             News
         </h1>
+        <div class="parent1">
 
-       
+          <a  class="prev" onclick="plusSlides(-1)">&#10094</a>
+
+          <div class="slideshow-container">
+
+            
+            <div class="mySlides" >
+                <div class="numbertext">1 / 3</div>
+                <img  id="image-slide" src="img1.jpg">
+                <div class="text">PSG decided the Ligue1 title!</div>
+            </div>
+      
+            <div class="mySlides ">
+                <div class="numbertext">2 / 3</div>
+                <img  id="image-slide" src="img2.jpg">
+                <div class="text">Goalscoring show from the Brest star in Matchday 31</div>
+            </div>
+      
+            <div class="mySlides ">
+                <div class="numbertext">3 / 3</div>
+                <img id="image-slide" src="img3.jpg">
+                <div class="text">Moffi nets his 9-th goal of the season in Nice loss to Nantes</div>
+            </div>
+          </div>
+
+          
+          <a  class="next" onclick="plusSlides(+1)">&#10095</a>
+    
+          <div style="text-align:center">
+             <span class="dot" onclick="currentSlide(1)"></span>
+             <span class="dot" onclick="currentSlide(2)"></span>
+             <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+        </div> 
+        
+      <br>
+      
+      
+        
+    
+      
+    
+        
 
         <h1 id="Matches">
             Matches
@@ -56,7 +98,7 @@
             <tr>
                 <td id="matches34">
                     <div class="parent">
-                        <div class="child1">Lens<img src="lens.png" width="35px" height="35px"></div> 
+                        <div class="child1"> RCL Lens<img src="lens.png" width="35px" height="35px"></div> 
                         <div class="child2">22:00</div>
                         <div class="child3"><img src="montpellier.png" width="35px" height="35px"> Montpellier</div>
                         </div>
@@ -68,14 +110,14 @@
                     <div class="parent">
                         <div class="child1">Toulouse <img src="toulouse.png" width="35px" height="35px"></div> 
                         <div class="child2">22:00</div>
-                        <div class="child3"><img src="brest.png" width="25px" height="35px"> Brest</div>
+                        <div class="child3"><img src="brest.png" width="25px" height="35px">SB Brest</div>
                         </div>
                 </td>
             </tr>
             <tr>
                 <td id="matches34">
                     <div class="parent">
-                        <div class="child1">Metz <img src="metz.png" width="35px" height="35px"></div> 
+                        <div class="child1"> Fc Metz <img src="metz.png" width="35px" height="35px"></div> 
                         <div class="child2">22:00</div>
                         <div class="child3"><img src="psg.png" width="35px" height="35px"> PSG</div>
                         </div>
@@ -105,7 +147,7 @@
             <tr>
                 <td id="matches34">
                     <div class="parent">
-                        <div class="child1">Lyon <img src="lyon.png" width="35px" height="35px"></div> 
+                        <div class="child1"> OL Lyon <img src="lyon.png" width="35px" height="35px"></div> 
                         <div class="child2">22:00</div>
                         <div class="child3"><img src="strasbourg.png" width="35px" height="35px"> Strasbourg</div>
                         </div>
@@ -117,7 +159,7 @@
                     <div class="parent">
                         <div class="child1">Lorient <img src="lorient.png" width="35px" height="35px"></div> 
                         <div class="child2">22:00</div>
-                        <div class="child3"><img src="clermont.png" width="35px" height="35px"> Clermont Foot</div>
+                        <div class="child3"><img src="clermont.png" width="35px" height="35px"> Clermont </div>
                         </div>
                 </td>
             </tr>
@@ -347,9 +389,829 @@
         <h1 id="transfers">
             Transfers
         </h1>
+         
+        <div class="flex-container">
+            <div>
+                <div class="flex-element1">
+                 <table>
+                   
+                    <tr>
+                        <th id="club-image"> <img src="brest.png" width="20%" ></th>
+                        <th id="club-name">Brest</th>
+                    </tr>
 
-     
+                    <tr>
+                        <th id="Departures">Departures</th>
+                        <th id="Arrival">Arrival</th>
+                    </tr>
+
+                   <tr>
+                     <td><img src="red str.png" width="10%">A.Elis</td>
+                     <td> <img src="green str.png" width="10%">A.Camblan</td>
+                   </tr>
+
+                   <tr>
+                    <td> <img src="red str.png" width="10%">C.Herelle</td>
+                    <td> <img src="green str.png" width="10%">A.Lebeau</td>
+                   </tr>
+
+                  <tr>
+                    <td> <img src="red str.png" width="10%">F.Honorat</td>
+                    <td> <img src="green str.png" width="10%">B.Brahimi</td>
+                  </tr>
+
+                  <tr>
+                    <td> <img src="red str.png" width="10%">F.Lemarechal</td>
+                    <td> <img src="green str.png" width="10%">B.Locko</td>
+                  </tr>
+
+                  <tr>
+                    <td> <img src="red str.png" width="10%">H.Belkebla</td>
+                    <td> <img src="green str.png" width="10%">J.Amavi</td>
+                  </tr>
+
+                  <tr>
+                    <td> <img src="red str.png" width="10%">H.Mbock</td>
+                    <td> <img src="green str.png" width="10%">J.Le Cardinal</th>
+                  </tr>
+                 </table>
+                </div>
+
+                <div class="flex-element2">
+                    <table>
+                      
+                       <tr>
+                           <th id="club-image"> <img src="clermont.png" width="19.5%" ></th>
+                           <th id="club-name">Clermont </th>
+                       </tr>
+   
+                       <tr>
+                           <th id="Departures">Departures</th>
+                           <th id="Arrival">Arrival</th>
+                       </tr>
+   
+                      <tr>
+                        <td><img src="red str.png" width="10%">A.Diakite</td>
+                        <td> <img src="green str.png" width="10%">N.Jaby</td>
+                      </tr>
+   
+                      <tr>
+                       <td> <img src="red str.png" width="10%">F.Gnalega</td>
+                       <td> <img src="green str.png" width="10%">H.Keita</td>
+                      </tr>
+   
+                     <tr>
+                       <td> <img src="red str.png" width="10%">L.Marguerson</td>
+                       <td> <img src="green str.png" width="10%">M.Caufriez</td>
+                     </tr>
+   
+                     <tr>
+                       <td> <img src="red str.png" width="10%">M.Wieteska</td>
+                       <td> <img src="green str.png" width="10%">M.N'Diaye</td>
+                     </tr>
+   
+                     <tr>
+                       <td> <img src="red str.png" width="10%">N.L'Ghoul</td>
+                       <td> <img src="green str.png" width="10%">S.Nicholson</td>
+                     </tr>
+   
+                     <tr>
+                       <td> <img src="red str.png" width="10%">O.Djoco</td>
+                       <td> <img src="green str.png" width="10%">T.Borne</th>
+                     </tr>
+                    </table>
+                </div>
+
+                <div class="flex-element3">
+                    <table>
+                          
+                        <tr>
+                            <th id="club-image"> <img src="le havre.png" width="20%" ></th>
+                            <th id="club-name">Havre</th>
+                        </tr>
+       
+                        <tr>
+                            <th id="Departures">Departures</th>
+                            <th id="Arrival">Arrival</th>
+                        </tr>
+       
+                        <tr>
+                          <td><img src="red str.png" width="10%">A.Richardson</td>
+                          <td> <img src="green str.png" width="10%">A.Toure</td>
+                        </tr>
+       
+                        <tr>
+                           <td> <img src="red str.png" width="10%">A.Wahib</td>
+                           <td> <img src="green str.png" width="10%">C.Doumbia</td>
+                        </tr>
+       
+                        <tr>
+                           <td> <img src="red str.png" width="10%">D.Moussadek</td>
+                           <td> <img src="green str.png" width="10%">D.Kuziaev</td>
+                        </tr>
+       
+                        <tr>
+                           <td> <img src="red str.png" width="10%">E.Mahmoud</td>
+                           <td> <img src="green str.png" width="10%">E.Sabbi</td>
+                        </tr>
+       
+                        <tr>
+                           <td> <img src="red str.png" width="10%">J.Thiare</td>
+                           <td> <img src="green str.png" width="10%">I.Soumare</td>
+                        </tr>
+       
+                        <tr>
+                           <td> <img src="red str.png" width="10%">N.Chadli</td>
+                           <td> <img src="green str.png" width="10%">K.Diawara</th>
+                        </tr>
+                    </table>
+                </div>
+           
+                <div class="flex-element4">
+                    <table>
+                              
+                        <tr>
+                            <th id="club-image"> <img src="lens.png" width="18.5%" ></th>
+                            <th id="club-name">Lens</th>
+                        </tr>
+           
+                        <tr>
+                            <th id="Departures">Departures</th>
+                            <th id="Arrival">Arrival</th>
+                        </tr>
+           
+                        <tr>
+                            <td><img src="red str.png" width="10%">A.Buksa</td>
+                            <td> <img src="green str.png" width="10%">A.Diouf</td>
+                        </tr>
+           
+                        <tr>
+                            <td> <img src="red str.png" width="10%">S.Fofana</td>
+                            <td> <img src="green str.png" width="10%">A.Khusanov</td>
+                        </tr>
+           
+                        <tr>
+                            <td> <img src="red str.png" width="10%">I.Boura</td>
+                            <td> <img src="green str.png" width="10%">E.Wahi</td>
+                        </tr>
+           
+                        <tr>
+                            <td> <img src="red str.png" width="10%">J.Onana</td>
+                            <td> <img src="green str.png" width="10%">I.Balde</td>
+                        </tr>
+           
+                        <tr>
+                            <td> <img src="red str.png" width="10%">L.Openda</td>
+                            <td> <img src="green str.png" width="10%">M.Guilavogui</td>
+                        </tr>
+           
+                        <tr>
+                            <td> <img src="red str.png" width="10%">L.Poreba</td>
+                            <td> <img src="green str.png" width="10%">N.Mendy</th>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="flex-element5">
+                    <table>
+                                  
+                        <tr>
+                            <th id="club-image"> <img src="LOSC.png" width="35%" ></th>
+                            <th id="club-name">LOSC</th>
+                        </tr>
+               
+                        <tr>
+                            <th id="Departures">Departures</th>
+                            <th id="Arrival">Arrival</th>
+                        </tr>
+               
+                        <tr>
+                            <td><img src="red str.png" width="10%">A.Gomes</td>
+                            <td> <img src="green str.png" width="10%">H.Haraldsson</td>
+                        </tr>
+               
+                        <tr>
+                            <td> <img src="red str.png" width="10%">B.Costil</td>
+                            <td> <img src="green str.png" width="10%">I.Cavaleiro</td>
+                        </tr>
+               
+                        <tr>
+                            <td> <img src="red str.png" width="10%">C.Baleba</td>
+                            <td> <img src="green str.png" width="10%">I.Miramon</td>
+                        </tr>
+               
+                        <tr>
+                            <td> <img src="red str.png" width="10%">J.Bamba</td>
+                            <td> <img src="green str.png" width="10%">N.Bentaleb</td>
+                        </tr>
+               
+                        <tr>
+                            <td> <img src="red str.png" width="10%">J.Fonte</td>
+                            <td> <img src="green str.png" width="10%">S.Umtiti</td>
+                        </tr>
+               
+                        <tr>
+                            <td> <img src="red str.png" width="10%">M.Bayo</td>
+                            <td> <img src="green str.png" width="10%">T.Santos</th>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="flex-element6">
+                    <table>
+                                      
+                        <tr>
+                            <th id="club-image"> <img src="lorient.png" width="16.3%" ></th>
+                            <th id="club-name">Lorient</th>
+                        </tr>
+                   
+                        <tr>
+                            <th id="Departures">Departures</th>
+                            <th id="Arrival">Arrival</th>
+                        </tr>
+                   
+                        <tr>
+                            <td><img src="red str.png" width="10%">A.Aouchiche</td>
+                            <td> <img src="green str.png" width="10%">A.Gomis</td>
+                        </tr>
+                   
+                        <tr>
+                            <td> <img src="red str.png" width="10%">B.Meite</td>
+                            <td> <img src="green str.png" width="10%">A.Grbic</td>
+                        </tr>
+                   
+                        <tr>
+                            <td> <img src="red str.png" width="10%">C.Doumbia</td>
+                            <td> <img src="green str.png" width="10%">A.Kari</td>
+                        </tr>
+                   
+                        <tr>
+                            <td> <img src="red str.png" width="10%">E.Ehlingeer</td>
+                            <td> <img src="green str.png" width="10%">A.Tosin</td>
+                        </tr>
+                   
+                        <tr>
+                            <td> <img src="red str.png" width="10%">E.Le Fee</td>
+                            <td> <img src="green str.png" width="10%">B.Mendy</td>
+                        </tr>
+                   
+                        <tr>
+                            <td> <img src="red str.png" width="10%">I.Kone</td>
+                            <td> <img src="green str.png" width="10%">D.Sylla</th>
+                        </tr>
+                    </table>
+                </div>
+
+
+                <div class="flex-element7">
+                    <table>
+                                          
+                        <tr>
+                            <th id="club-image"> <img src="lyon.png" width="20%" ></th>
+                            <th id="club-name">OL</th>
+                        </tr>
+                       
+                        <tr>
+                            <th id="Departures">Departures</th>
+                            <th id="Arrival">Arrival</th>
+                        </tr>
+                       
+                        <tr>
+                            <td><img src="red str.png" width="10%">A.Ndiaye</td>
+                            <td> <img src="green str.png" width="10%">C.Mata</td>
+                        </tr>
+                       
+                        <tr>
+                            <td> <img src="red str.png" width="10%">A.Sarr</td>
+                            <td> <img src="green str.png" width="10%">Camilo</td>
+                        </tr>
+                       
+                        <tr>
+                            <td> <img src="red str.png" width="10%">B.Barcola</td>
+                            <td> <img src="green str.png" width="10%">D.Moreira</td>
+                        </tr>
+                       
+                        <tr>
+                            <td> <img src="red str.png" width="10%">C.Lukeba</td>
+                            <td> <img src="green str.png" width="10%">E.Nuamah</td>
+                        </tr>
+                       
+                        <tr>
+                            <td> <img src="red str.png" width="10%">C.Ozkacar</td>
+                            <td> <img src="green str.png" width="10%">H.Keita</td>
+                        </tr>
+                       
+                        <tr>
+                            <td> <img src="red str.png" width="10%">H.Aquar</td>
+                            <td> <img src="green str.png" width="10%">J.O'Brien</th>
+                        </tr>
+                    </table>
+                </div>
+
+
+                <div class="flex-element8">
+                    <table>
+                                              
+                        <tr>
+                            <th id="club-image"> <img src="marseille.png" width="18%" ></th>
+                            <th id="club-name">OM</th>
+                        </tr>
+                           
+                        <tr>
+                            <th id="Departures">Departures</th>
+                            <th id="Arrival">Arrival</th>
+                        </tr>
+                           
+                        <tr>
+                            <td><img src="red str.png" width="10%">A.Milik</td>
+                            <td> <img src="green str.png" width="10%">A.Harit</td>
+                        </tr>
+                           
+                        <tr>
+                            <td> <img src="red str.png" width="10%">A.Sanchez</td>
+                            <td> <img src="green str.png" width="10%">A.Murillo</td>
+                        </tr>
+                           
+                        <tr>
+                            <td> <img src="red str.png" width="10%">B.Elmaz</td>
+                            <td> <img src="green str.png" width="10%">B.Meite</td>
+                        </tr>
+                           
+                        <tr>
+                            <td> <img src="red str.png" width="10%">C.Under</td>
+                            <td> <img src="green str.png" width="10%">G.Kondogbia</td>
+                        </tr>
+                           
+                        <tr>
+                            <td> <img src="red str.png" width="10%">D.Payet</td>
+                            <td> <img src="green str.png" width="10%">I.Ndiaye</td>
+                        </tr>
+                           
+                        <tr>
+                            <td> <img src="red str.png" width="10%">E.Bally</td>
+                            <td> <img src="green str.png" width="10%">I.Sarr</th>
+                        </tr>
+                    </table>
+                </div>
+
+
+                <div class="flex-element9">
+                    <table>
+                                                  
+                        <tr>
+                            <th id="club-image"> <img src="metz.png" width="17.5%" ></th>
+                            <th id="club-name">Metz</th>
+                        </tr>
+                               
+                        <tr>
+                            <th id="Departures">Departures</th>
+                            <th id="Arrival">Arrival</th>
+                        </tr>
+                               
+                        <tr>
+                            <td><img src="red str.png" width="10%">B.Traore</td>
+                            <td> <img src="green str.png" width="10%">B.Tetteh</td>
+                        </tr>
+                               
+                        <tr>
+                            <td> <img src="red str.png" width="10%">G.Mikautadze</td>
+                            <td> <img src="green str.png" width="10%">C.Herelle</td>
+                        </tr>
+                               
+                        <tr>
+                            <td> <img src="red str.png" width="10%">L.Gueye</td>
+                            <td> <img src="green str.png" width="10%">I.Sane</td>
+                        </tr>
+                               
+                        <tr>
+                            <td> <img src="red str.png" width="10%">L.Joseph</td>
+                            <td> <img src="green str.png" width="10%">J.Asoro</td>
+                        </tr>
+                               
+                        <tr>
+                            <td> <img src="red str.png" width="10%">L.Raillot</td>
+                            <td> <img src="green str.png" width="10%">M.Colin</td>
+                        </tr>
+                               
+                        <tr>
+                            <td> <img src="red str.png" width="10%">O.Kebe</td>
+                            <td> <img src="green str.png" width="10%">S.Elisor</th>
+                        </tr>
+                    </table>
+                </div>
+
+
+                <div class="flex-element10">
+                    <table>
+                                                      
+                        <tr>
+                            <th id="club-image"> <img src="monaco.png" width="14.3%" ></th>
+                            <th id="club-name">Monaco</th>
+                        </tr>
+                                   
+                        <tr>
+                            <th id="Departures">Departures</th>
+                            <th id="Arrival">Arrival</th>
+                        </tr>
+                                   
+                        <tr>
+                            <td><img src="red str.png" width="10%">A.Disasi</td>
+                            <td> <img src="green str.png" width="10%">A.Musaba</td>
+                        </tr>
+                                   
+                        <tr>
+                            <td> <img src="red str.png" width="10%">A.Nubel</td>
+                            <td> <img src="green str.png" width="10%">D.Zakaria</td>
+                        </tr>
+                                   
+                        <tr>
+                            <td> <img src="red str.png" width="10%">A.Zagre</td>
+                            <td> <img src="green str.png" width="10%">F.Balogun</td>
+                        </tr>
+                                   
+                        <tr>
+                            <td> <img src="red str.png" width="10%">H.Marcelin</td>
+                            <td> <img src="green str.png" width="10%">M.Salisu</td>
+                        </tr>
+                                   
+                        <tr>
+                            <td> <img src="red str.png" width="10%">J.Lucas</td>
+                            <td> <img src="green str.png" width="10%">P.Kohn</td>
+                        </tr>
+                                   
+                        <tr>
+                            <td> <img src="red str.png" width="10%">K.Volland/td>
+                            <td> <img src="green str.png" width="10%">W.Singo</th>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="flex-element11">
+                    <table>
+                                                          
+                        <tr>
+                            <th id="club-image"> <img src="montpellier.png" width="25%" ></th>
+                            <th id="club-name">Montp</th>
+                        </tr>
+                                       
+                        <tr>
+                            <th id="Departures">Departures</th>
+                            <th id="Arrival">Arrival</th>
+                        </tr>
+                                       
+                        <tr>
+                            <td><img src="red str.png" width="10%">E.Wahi</td>
+                            <td> <img src="green str.png" width="10%">A.Adams</td>
+                        </tr>
+                                       
+                        <tr>
+                            <td> <img src="red str.png" width="10%">F.Maouassa</td>
+                            <td> <img src="green str.png" width="10%">B.Dizdarevic</td>
+                        </tr>
+                                       
+                        <tr>
+                            <td> <img src="red str.png" width="10%">G.Bares</td>
+                            <td> <img src="green str.png" width="10%">B.Omeragic</td>
+                        </tr>
+                                       
+                        <tr>
+                            <td> <img src="red str.png" width="10%">M.Carvalho</td>
+                            <td> <img src="green str.png" width="10%">K.Yeboah</td>
+                        </tr>
+                                       
+                        <tr>
+                            <td> <img src="red str.png" width="10%">M.Suarez</td>
+                            <td> <img src="green str.png" width="10%">M.Tamari</td>
+                        </tr>
+                                       
+                        <tr>
+                            <td> <img src="red str.png" width="10%">T.Tamas</td>
+                            <td> <img src="green str.png" width="10%">S.Delaye</th>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="flex-element12">
+                    <table>
+                                                              
+                        <tr>
+                            <th id="club-image"> <img src="nantes.png" width="19.2%" ></th>
+                            <th id="club-name">Nantes</th>
+                        </tr>
+                                           
+                        <tr>
+                            <th id="Departures">Departures</th>
+                            <th id="Arrival">Arrival</th>
+                        </tr>
+                                           
+                        <tr>
+                            <td><img src="red str.png" width="10%">A.Delort</td>
+                            <td> <img src="green str.png" width="10%">Adson</td>
+                        </tr>
+                                           
+                        <tr>
+                            <td> <img src="red str.png" width="10%">B.Ndilu</td>
+                            <td> <img src="green str.png" width="10%">Douglas</td>
+                        </tr>
+                                           
+                        <tr>
+                            <td> <img src="red str.png" width="10%">C.Traore</td>
+                            <td> <img src="green str.png" width="10%">E.Comert</td>
+                        </tr>
+                                           
+                        <tr>
+                            <td> <img src="red str.png" width="10%">E.Guessand</td>
+                            <td> <img src="green str.png" width="10%">H.Barbet</td>
+                        </tr>
+                                           
+                        <tr>
+                            <td> <img src="red str.png" width="10%">J.Diaz</td>
+                            <td> <img src="green str.png" width="10%">K.Bamba</td>
+                        </tr>
+                                           
+                        <tr>
+                            <td> <img src="red str.png" width="10%">J.Blas/td>
+                            <td> <img src="green str.png" width="10%">M.Achi</th>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="flex-element13">
+                    <table>
+                                                                  
+                        <tr>
+                            <th id="club-image"> <img src="nice.png" width="22.8%" ></th>
+                            <th id="club-name">Nice</th>
+                        </tr>
+                                               
+                        <tr>
+                            <th id="Departures">Departures</th>
+                            <th id="Arrival">Arrival</th>
+                        </tr>
+                                               
+                        <tr>
+                            <td><img src="red str.png" width="10%">A.Ahoussou</td>
+                            <td> <img src="green str.png" width="10%">A.Balde</td>
+                        </tr>
+                                               
+                        <tr>
+                            <td> <img src="red str.png" width="10%">A.Ramsey</td>
+                            <td> <img src="green str.png" width="10%">A.Doumbouya</td>
+                        </tr>
+                                               
+                        <tr>
+                            <td> <img src="red str.png" width="10%">B.Brahimi</td>
+                            <td> <img src="green str.png" width="10%">C.stengs</td>
+                        </tr>
+                                               
+                        <tr>
+                            <td> <img src="red str.png" width="10%">J.Bryan</td>
+                            <td> <img src="green str.png" width="10%">E.Guessand</td>
+                        </tr>
+                                        
+                        <tr>
+                            <td> <img src="red str.png" width="10%">M.Viti</td>
+                            <td> <img src="green str.png" width="10%">J.Smith</td>
+                        </tr>
+                                               
+                        <tr>
+                            <td> <img src="red str.png" width="10%">N.Pepe</td>
+                            <td> <img src="green str.png" width="10%">R.Ilie</th>
+                        </tr>
+                    </table>
+                </div>
+
+
+                <div class="flex-element14">
+                    <table>
+                                                                      
+                        <tr>
+                            <th id="club-image"> <img src="psg.png" width="28%" ></th>
+                            <th id="club-name">PSG</th>
+                        </tr>
+                                                   
+                        <tr>
+                            <th id="Departures">Departures</th>
+                            <th id="Arrival">Arrival</th>
+                        </tr>
+                                                   
+                        <tr>
+                            <td><img src="red str.png" width="10%">A.Diallo</td>
+                            <td> <img src="green str.png" width="10%">A.Tenas</td>
+                        </tr>
+                                                   
+                        <tr>
+                            <td> <img src="red str.png" width="10%">A.Kari</td>
+                            <td> <img src="green str.png" width="10%">B.Barcola</td>
+                        </tr>
+                                                   
+                        <tr>
+                            <td> <img src="red str.png" width="10%">C.Dagba</td>
+                            <td> <img src="green str.png" width="10%">C.Ndour</td>
+                        </tr>
+                                                   
+                        <tr>
+                            <td> <img src="red str.png" width="10%">D.Gassama</td>
+                            <td> <img src="green str.png" width="10%">E.Michut</td>
+                        </tr>
+                                                   
+                        <tr>
+                            <td> <img src="red str.png" width="10%">G.Wignaldum</td>
+                            <td> <img src="green str.png" width="10%">G.Ramos</td>
+                        </tr>
+                                                   
+                        <tr>
+                            <td> <img src="red str.png" width="10%">I.Housni</td>
+                            <td> <img src="green str.png" width="10%">K.Navas</th>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="flex-element15">
+                    <table>
+                                                                          
+                        <tr>
+                            <th id="club-image"> <img src="reims.png" width="14.1%" ></th>
+                            <th id="club-name">Reims</th>
+                        </tr>
+                                                       
+                        <tr>
+                            <th id="Departures">Departures</th>
+                            <th id="Arrival">Arrival</th>
+                        </tr>
+                                                       
+                        <tr>
+                            <td><img src="red str.png" width="10%">A.Donis</td>
+                            <td> <img src="green str.png" width="10%">A.Bojang</td>
+                        </tr>
+                                                       
+                        <tr>
+                            <td> <img src="red str.png" width="10%">A.Flips</td>
+                            <td> <img src="green str.png" width="10%">A.Gravillon</td>
+                        </tr>
+                                                       
+                        <tr>
+                            <td> <img src="red str.png" width="10%">A.Zeneli</td>
+                            <td> <img src="green str.png" width="10%">A.Richardson</td>
+                        </tr>
+                                                       
+                        <tr>
+                            <td> <img src="red str.png" width="10%">B.Locko</td>
+                            <td> <img src="green str.png" width="10%">A.Salama</td>
+                        </tr>
+                                                       
+                        <tr>
+                            <td> <img src="red str.png" width="10%">C.Keita</td>
+                            <td> <img src="green str.png" width="10%">F.Hornby</td>
+                        </tr>
+                                                       
+                        <tr>
+                            <td> <img src="red str.png" width="10%">D.Lopy</td>
+                            <td> <img src="green str.png" width="10%">J.Okumu</th>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="flex-element16">
+                    <table>
+                                                                              
+                        <tr>
+                            <th id="club-image"> <img src="rennes.png" width="25%" ></th>
+                            <th id="club-name">Rennes</th>
+                        </tr>
+                                                           
+                        <tr>
+                            <th id="Departures">Departures</th>
+                            <th id="Arrival">Arrival</th>
+                        </tr>
+                                                           
+                        <tr>
+                            <td><img src="red str.png" width="10%">A.Gomis</td>
+                            <td> <img src="green str.png" width="10%">B.Yildirim</td>
+                        </tr>
+                                                           
+                        <tr>
+                            <td> <img src="red str.png" width="10%">B.Meling</td>
+                            <td> <img src="green str.png" width="10%">E.Le Fee</td>
+                        </tr>
+                                                           
+                        <tr>
+                            <td> <img src="red str.png" width="10%">D.Alemdar</td>
+                            <td> <img src="green str.png" width="10%">F.Rieder</td>
+                        </tr>
+                                                           
+                        <tr>
+                            <td> <img src="red str.png" width="10%">D.Spence</td>
+                            <td> <img src="green str.png" width="10%">G.Gallon</td>
+                        </tr>
+                                                           
+                        <tr>
+                            <td> <img src="red str.png" width="10%">H.Traore</td>
+                            <td> <img src="green str.png" width="10%">G.Lembet</td>
+                        </tr>
+                                                           
+                        <tr>
+                            <td> <img src="red str.png" width="10%">J.Doku</td>
+                            <td> <img src="green str.png" width="10%">J.Kadile</th>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="flex-element17">
+                    <table>
+                                                                                  
+                        <tr>
+                            <th id="club-image"> <img src="strasbourg.png" width="25%" ></th>
+                            <th id="club-name">Strasb</th>
+                        </tr>
+                                                               
+                        <tr>
+                            <th id="Departures">Departures</th>
+                            <th id="Arrival">Arrival</th>
+                        </tr>
+                                                               
+                        <tr>
+                            <td><img src="red str.png" width="10%">A.Ahmed</td>
+                            <td> <img src="green str.png" width="10%">A.Gabriel</td>
+                        </tr>
+                                                               
+                        <tr>
+                            <td> <img src="red str.png" width="10%">A.Gjiku</td>
+                            <td> <img src="green str.png" width="10%">A.Sylla</td>
+                        </tr>
+                                                               
+                        <tr>
+                            <td> <img src="red str.png" width="10%">C.Dagba</td>
+                            <td> <img src="green str.png" width="10%">D.Bakwa</td>
+                        </tr>
+                                                               
+                        <tr>
+                            <td> <img src="red str.png" width="10%">D.Jean</td>
+                            <td> <img src="green str.png" width="10%">E.Emegha</td>
+                        </tr>
+                                                               
+                        <tr>
+                            <td> <img src="red str.png" width="10%">D.Lienard</td>
+                            <td> <img src="green str.png" width="10%">J.Mwanga</td>
+                        </tr>
+                                                               
+                        <tr>
+                            <td> <img src="red str.png" width="10%">H.Diallo</td>
+                            <td> <img src="green str.png" width="10%">K.Fila</th>
+                        </tr>
+                    </table>
+                </div>
+
+
+                <div class="flex-element18">
+                    <table>
+                                                                                      
+                        <tr>
+                            <th id="club-image"> <img src="toulouse.png" width="25%" ></th>
+                            <th id="club-name">Toulouse</th>
+                        </tr>
+                                                                   
+                        <tr>
+                            <th id="Departures">Departures</th>
+                            <th id="Arrival">Arrival</th>
+                        </tr>
+                                                                   
+                        <tr>
+                            <td><img src="red str.png" width="10%">A.Onaiwu</td>
+                            <td> <img src="green str.png" width="10%">A.Dominguez</td>
+                        </tr>
+                                                                   
+                        <tr>
+                            <td> <img src="red str.png" width="10%">A.Rouault</td>
+                            <td> <img src="green str.png" width="10%">A.Donnum</td>
+                        </tr>
+                                                                   
+                        <tr>
+                            <td> <img src="red str.png" width="10%">B.Dejaegere</td>
+                            <td> <img src="green str.png" width="10%">C.Casseres</td>
+                        </tr>
+                                                                   
+                        <tr>
+                            <td> <img src="red str.png" width="10%">F.Chaibi</td>
+                            <td> <img src="green str.png" width="10%">F.Magri</td>
+                        </tr>
+                                                                   
+                        <tr>
+                            <td> <img src="red str.png" width="10%">Ratao</td>
+                            <td> <img src="green str.png" width="10%">N.Schimidt</td>
+                        </tr>
+                                                                   
+                        <tr>
+                            <td> <img src="red str.png" width="10%">S.Sanna</td>
+                            <td> <img src="green str.png" width="10%">M.Bangre</th>
+                        </tr>
+                    </table>
+                </div>
+                             
+                             
+                
+
+    <script src="ligue1.js"></script>     
     </body>
 </html>
-    </body>
-</html>
+    
