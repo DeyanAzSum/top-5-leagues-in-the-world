@@ -18,17 +18,18 @@ body{
 }
 .table1{
     border-style: inset;
-    padding: 0px;
-    font-size: 15px;
+    padding: 20px;
+    font-size: 20px;
     background-color: #2c2c2c;
     color: #cccccc;
     text-align: center;
     position: relative;
     left: 200px;
+    top: 175px;
 }
 .tableTR{
     border-style: none;
-    padding: 10px;
+    padding: 30px;
 }
 .tableHead{
     border-style: none;
@@ -41,19 +42,15 @@ h2{
     color:#2c2c2c;
     font-size: 70px;
 }
-.champ{
-    border-left-color: rgb(7, 131, 11), solid;
-    border-left-width: 5px;    
-}
 .table2{
     border-style: solid;
     padding: 20px;
     font-size: 25px;
     background-color: #3c3c3c;
-    color: #dddddd;
+    color: #aaaaaa;
     text-align: start;
     position: relative;
-    bottom: 437.5px;
+    bottom: 800px;
     left: 800px;
 }
 .result{
@@ -90,4 +87,44 @@ h2{
     border-style: solid;
     border-color: #2c2c2c;
     border-left-color: #d9110a;
+}
+.boxChamp{
+    border-style: solid;
+    border-color: darkblue;
+    background-color: darkblue;
+}
+.boxEurop{
+    border-style: solid;
+    border-color: darkred;
+    background-color: darkred;
+}
+.boxConf{
+    border-style: solid;
+    border-color: #ce9418;
+    background-color: #ce9418;
+}
+.boxReleg{
+    border-style: solid;
+    border-color: #d9110a;
+    background-color: #d9110a;
+}
+.match{
+    color: #dddddd;
+}
+.matchweek{
+    color: #eeeeee;
+}
+.table3{
+    border-style: solid;
+    padding: 30px;
+    font-size: 25px;
+    background-color: #3c3c3c;
+    color: #aaaaaa;
+    text-align: center;
+    position: relative;
+    left: 400px;
+    bottom: 700px;
+}
+.topScorers{
+    text-align: center;
 }
