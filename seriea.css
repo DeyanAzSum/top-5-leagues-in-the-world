@@ -75,6 +75,45 @@ body{
     font-size: 50px;
     padding: 20px;
 }
+.motm{
+    background-image: url(background1.jpg);
+    background-size: 30%;
+    position: relative;
+    left: 70%;
+    bottom: 54.3rem;
+    border-style: double;
+    width: 30%;
+}
+.gotm{
+    background-image: url(background1.jpg);
+    background-size: 30%;
+    position: relative;
+    left: 70%;
+    bottom: 44.3rem;
+    border-style: double;
+    width: 30%;
+}
+.cotm{
+    background-image: url(background1.jpg);
+    background-size: 30%;
+    position: relative;
+    left: 70%;
+    bottom: 34.3rem;
+    border-style: double;
+    width: 30%;
+}
+.player{
+    position: relative;
+    left: 1.5rem;
+    top: 0.3rem;
+}
+.award{
+    font-size: 50px;
+    background-color: #54e8fc;
+    position: relative;
+    padding: 5px;
+    color: #001f63;
+}
 table{
     border-style: ridge;
     border-width: 50px;
@@ -84,25 +123,22 @@ table{
     background-color: ;
     text-align: center;
     position: relative;
-    margin: auto;
+    left: 2.5%;
+    width: 10%;
+    bottom: 155rem;
 }
 td{
     border-style: none;
-    padding: 20px;
+    padding: 17.4px;
 }
 th{
     border-style: none;
-    padding: 20px;
+    padding: 17.4px;
 }
 .name{
     text-align: left;
     position: relative;
     bottom: 0px;
-}
-h2{
-    color: #0578ff;
-    font-size: 70px;
-    text-align: center;
 }
 .pos{
     border-style: solid;

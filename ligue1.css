@@ -15,6 +15,120 @@ body{
     background-color: #12233f;
 }
 
+#news{
+    text-align: center;
+    color: rgb(180, 180, 180);
+}
+
+* {box-sizing: border-box}
+
+.parent1{
+    margin: 5px;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.slideshow-container {
+    max-width: 1300px;
+    height: 400px;
+    position: relative;
+    margin: 0 auto;
+    padding: 10px 10px;
+    
+    display: inline-block;
+    
+    
+  }
+  
+  
+  .mySlides {
+    display: inline;
+   
+  }
+
+  #image-slide{
+      width: 700px;
+      height: 400px;
+  }
+
+  img{
+    vertical-align: center;
+  }
+  
+  
+  .prev, .next {
+    cursor: pointer;
+    position: relative;
+    top: 50%;
+    width: auto;
+    margin-top: -20px;
+    padding: 16px;
+    color: rgb(180, 180, 180);
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  
+  .next {
+    right: 310px;
+    border-radius: 5px;
+    display: block;
+    float: right;
+    top: 190px;
+  }
+  
+  .prev{
+    left: 300px;
+    border-radius: 5px;
+    display: block;
+    float: left;
+    top: 190px;
+  }
+  
+ 
+  
+  .text {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    text-align: start;
+    bottom: -10px;
+    background-color: #12233f;
+  }
+  
+  
+  .numbertext {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    background-color: #12233f;
+  }
+  
+  
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    align-content: center;
+    
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+
 h3{
     font-size: 300px;
 }
@@ -31,7 +145,7 @@ h3{
     margin: 0px;
     font-size: 25px;
     position: relative;
-    left: 420px;
+    left: 405px;
     background-color:  rgb(255, 255, 255);;
     color: rgb(0, 0, 0);
     text-decoration: solid;
@@ -153,19 +267,215 @@ td{
 .child1{
     display: inline-block;
     padding: 10px 10px;
-    vertical-align: center;
+    
+    
 }
 
 .child2{
     display: inline-block;
     border: 1px solid rgb(0, 0, 0);
     padding: 10px 10px;
-    vertical-align: center;
     
 }
 
 .child3{
     display: inline-block;
     padding: 10px 10px;
-    vertical-align: center;
+    
+    
+}
+
+
+#transfers{
+    text-align: center;
+    color: rgb(180, 180, 180);
+}
+
+#club-image{
+    text-align: right;
+    width:45%;
+}
+
+#club-name{
+    text-align: left;
+    width:50%;
+    font-size: 20px;
+   
+}
+
+#Departures{
+    text-align: center;
+}
+#Arrival{
+    text-align: center;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    background-color: #12233f;
+    justify-content: space-between;
+    margin: 70px;
+    margin-top: 30px;
+}
+
+.flex-element1{
+    display: inline-block;
+    padding: 2px 2px;
+    vertical-align: right;
+    background-color: white;
+    width: 320px;
+}
+
+.flex-element2{
+    display: inline-block;
+    padding: 2px 2px;
+    justify-content: center;
+    vertical-align: right;
+    background-color: white;
+    width: 320px;
+}
+
+.flex-element3{
+    display: inline-block;
+    padding: 2px 2px;
+    
+    vertical-align: right;
+    background-color: white;
+    width: 320px;
+}
+
+.flex-element4{
+    display: inline-block;
+    padding: 2px 2px;
+    
+    vertical-align: right;
+    background-color: white;
+    width: 320px;
+}
+
+.flex-element5{
+    display: inline-block;
+    padding: 2px 2px;
+    
+    vertical-align: right;
+    background-color: white;
+    width: 320px;
+}
+
+.flex-element6{
+    display: inline-block;
+    padding: 2px 2px;
+    
+    vertical-align: right;
+    background-color: white;
+    width: 320px;
+}
+
+.flex-element7{
+    display: inline-block;
+    padding: 2px 2px;
+    
+    vertical-align: right;
+    background-color: white;
+    width: 320px;
+}
+
+.flex-element8{
+    display: inline-block;
+    padding: 2px 2px;
+   
+    vertical-align: right;
+    background-color: white;
+    width: 320px;
+}
+
+.flex-element9{
+    display: inline-block;
+    padding: 2px 2px;
+    
+    vertical-align: right;
+    background-color: white;
+    width: 320px;
+}
+
+.flex-element10{
+    display: inline-block;
+    padding: 2px 2px;
+    
+    vertical-align: right;
+    background-color: white;
+    width: 320px;
+}
+
+.flex-element11{
+    display: inline-block;
+    padding: 2px 2px;
+    
+    vertical-align: right;
+    background-color: white;
+    width: 320px;
+}
+
+.flex-element12{
+    display: inline-block;
+    padding: 2px 2px;
+    
+    vertical-align: right;
+    background-color: white;
+    width: 320px;
+}
+
+.flex-element13{
+    display: inline-block;
+    padding: 2px 2px;
+   
+    vertical-align: right;
+    background-color: white;
+    width: 320px;
+}
+
+.flex-element14{
+    display: inline-block;
+    padding: 2px 2px;
+    
+    vertical-align: right;
+    background-color: white;
+    width: 320px;
+}
+
+.flex-element15{
+    display: inline-block;
+    padding: 2px 2px;
+   
+    vertical-align: right;
+    background-color: white;
+    width: 320px;
+}
+
+.flex-element16{
+    display: inline-block;
+    padding: 2px 2px;
+    
+    vertical-align: right;
+    background-color: white;
+    width: 320px;
+}
+
+.flex-element17{
+    display: inline-block;
+    padding: 2px 2px;
+    
+    vertical-align: right;
+    background-color: white;
+    width: 320px;
+}
+
+.flex-element18{
+    display: inline-block;
+    padding: 2px 2px;
+    
+    vertical-align: right;
+    background-color: white;
+    width: 320px;
 }

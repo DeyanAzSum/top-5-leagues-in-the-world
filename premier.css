@@ -17,6 +17,7 @@ body{
     background-attachment: fixed;
 }
 
+
 h3{
     font-size: 300px;
 }
@@ -30,7 +31,7 @@ h3{
     padding-left: 0%;
     font-size: 25px;
     position: relative;
-    left: 400px;
+    left: 370px;
     background-color:  rgb(255, 255, 255);;
     color: rgb(0, 0, 0);
     text-decoration: solid;
@@ -84,6 +85,8 @@ h3{
 
 #name{
     text-align: left;
+    position: relative;
+    left: 0px;
 }
 
 #image{
@@ -110,16 +113,20 @@ td{
    text-align: center;
 }
 
+
+
+
 #t1{
     text-align: center;
     font-size: 25px;
     position: relative;
-    left: 450px;
     background-color:  rgb(255, 255, 255);;
     color: rgb(0, 0, 0);
     text-decoration: solid;
-    font-size: 25px;
-    width: 550px;
+    width: 580px;
+    left: 425px;
+ 
+    
 }
 
 #m38{
@@ -130,57 +137,85 @@ td{
 
 #matches38{
     text-align: center;
-    
 }
 
 .parent{
-    margin: 5px;
-    padding: 10px 10px;
-    text-align: center;
+    margin: 10px;
+    text-align: middle;
+    margin: auto;
 }
 
 .child1{
     display: inline-block;
     padding: 10px 10px;
-    vertical-align: center;
+    vertical-align: left;
+    margin: auto;
 }
 
 .child2{
     display: inline-block;
     border: 1px solid rgb(0, 0, 0);
     padding: 10px 10px;
-    vertical-align: center;
-
+    text-align: center;
+    margin: 20px;
 }
 
 .child3{
     display: inline-block;
     padding: 10px 10px;
-    vertical-align: center;
+    vertical-align: right;
+    margin: auto;
 }
 
 #stats{
     text-align: center
 }
 
+
+
+#text.stats{
+    text-align: center;
+}
+
 .flex-container{
     display: flex;
     flex-direction: row;
-    background-color: aqua;
+    background-color: #7573f7;
     justify-content: space-between;
+    margin: 50px;
 }
 
-.flex-container > div{
+.flex-element{
+    display: inline-block;
+    padding: 2px 2px;
+    justify-content: flex-start;
+    vertical-align: right;
     background-color: white;
-    margin: 55px;
-    padding: 10px;
-    font-size: 20px;
-    height: 2200px;
-    width: 400px;
+    width: 1000pxs;
+
+}
+.flex-element2{
+    display: inline-block;
+    padding: 2px 2px;
+    vertical-align: right;
+    background-color: white;
 }
 
+.flex-element3{
+    display: inline-block;
+    padding: 2px 2px;
+    vertical-align: right;
+    background-color: white;
+    justify-content: flex-end;
+
+}
+
+#player.name{
+     text-align: left;
+}
 #im{
     width: 250px;
     position: center;
 
 }
+
