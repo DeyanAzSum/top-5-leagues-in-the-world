@@ -145,7 +145,7 @@ bottom: 430px;
   
  
   
-  .text {
+  .text1 {
     color: rgb(180, 180, 180);
     font-size: 15px;
     padding: 10px;
@@ -153,7 +153,27 @@ bottom: 430px;
     top: 225px;
     width: 100%;
     text-align: start;
-    color: #1a1a1a;
+    color: #8b0a0a;
+  }
+  .text2 {
+    color: rgb(180, 180, 180);
+    font-size: 15px;
+    padding: 20px;
+    position: absolute;
+    top: 225px;
+    width: 100%;
+    text-align: start;
+    color: #000000;
+  }
+  .text3 {
+    color: rgb(180, 180, 180);
+    font-size: 15px;
+    padding: 10px;
+    position: absolute;
+    top: 225px;
+    width: 100%;
+    text-align: start;
+    color: #fbd70c;
   }
   
   
