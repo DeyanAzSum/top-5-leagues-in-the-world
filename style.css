@@ -107,7 +107,7 @@ bottom: 430px;
     height: 170px;
     position: absolute;
     margin: 30px;
-    left: 560px;
+    left: 900px;
   }
   
   
@@ -118,8 +118,6 @@ bottom: 430px;
   img{
     vertical-align: center;
   }
-  
-  
   .prev, .next {
     cursor: pointer;
     position: relative;
@@ -152,9 +150,10 @@ bottom: 430px;
     font-size: 15px;
     padding: 10px;
     position: absolute;
-    bottom: 8px;
+    top: 225px;
     width: 100%;
     text-align: start;
+    color: #1a1a1a;
   }
   
   
