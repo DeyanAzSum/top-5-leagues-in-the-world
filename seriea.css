@@ -80,7 +80,7 @@ body{
     background-size: 30%;
     position: relative;
     left: 70%;
-    bottom: 54.3rem;
+    bottom: 690px;
     border-style: double;
     width: 30%;
 }
@@ -89,7 +89,7 @@ body{
     background-size: 30%;
     position: relative;
     left: 70%;
-    bottom: 44.3rem;
+    bottom: 590px;
     border-style: double;
     width: 30%;
 }
@@ -98,7 +98,7 @@ body{
     background-size: 30%;
     position: relative;
     left: 70%;
-    bottom: 34.3rem;
+    bottom: 490px;
     border-style: double;
     width: 30%;
 }
@@ -108,7 +108,7 @@ body{
     top: 0.3rem;
 }
 .award{
-    font-size: 50px;
+    font-size: 35px;
     background-color: #54e8fc;
     position: relative;
     padding: 5px;
@@ -119,21 +119,20 @@ table{
     border-width: 50px;
     border-color: rgb(0, 47, 255);
     padding: 10px;
-    font-size: 35px;
-    background-color: ;
+    font-size: 28px;
     text-align: center;
     position: relative;
-    left: 2.5%;
+    left: 3.4%;
     width: 10%;
-    bottom: 155rem;
+    bottom: 1930px;
 }
 td{
     border-style: none;
-    padding: 17.4px;
+    padding: 10px;
 }
 th{
     border-style: none;
-    padding: 17.4px;
+    padding: 10px;
 }
 .name{
     text-align: left;
